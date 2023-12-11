@@ -39,6 +39,7 @@ urlpatterns = [
          name='schema-swagger-ui'
          ),
     path('', include('apps.authentication.urls')),
+    path('', include('apps.users.urls')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

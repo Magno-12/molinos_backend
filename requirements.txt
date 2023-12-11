@@ -1,8 +1,10 @@
 asgiref==3.7.2
+Brotli==1.1.0
 certifi==2023.7.22
 charset-normalizer==3.2.0
 cloudinary==1.35.0
 coverage==7.3.0
+dj-database-url==2.1.0
 Django==4.2.4
 django-cors-headers==4.3.1
 django-phonenumber-field==7.2.0
@@ -17,6 +19,7 @@ jmespath==1.0.1
 packaging==23.1
 phonenumbers==8.13.24
 psycopg2==2.9.7
+psycopg2-binary==2.9.9
 PyJWT==2.8.0
 python-dateutil==2.8.2
 python-decouple==3.8
@@ -30,3 +33,4 @@ typing_extensions==4.7.1
 tzdata==2023.3
 uritemplate==4.1.1
 urllib3==1.26.16
+whitenoise==6.6.0
