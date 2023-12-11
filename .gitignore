@@ -3,10 +3,6 @@ env/
 .env
 **/__pycache__/
 venv/
-migrations/
-**/__migrations__/
-*/__migrations__/
-/migrations/*
 Pipfile
 requirements2.txt
 docker
