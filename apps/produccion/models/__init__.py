@@ -1,0 +1,5 @@
+from apps.produccion.models.costos_producción import CostosDeProduccion
+from apps.produccion.models.gastos_compras_produccion import GastosComprasConstruccion
+from apps.produccion.models.inventario_maquinaria import InventarioMaquinaria
+from apps.produccion.models.caja_credito_sky import CajaSkyCreditoSky
+from apps.produccion.models.cuentas_por_pagar import CuentaPorPagar
