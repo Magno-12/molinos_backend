@@ -3,7 +3,7 @@ from django.db import models
 from apps.default.models.base_model import BaseModel
 
 
-class CarteraPagareYAnticipos(models.Model):
+class CarteraPagareYAnticipos(BaseModel):
     fecha_negocio = models.DateField(auto_now_add=True)
     nombre_completo_razon_social = models.CharField(max_length=255)
     cedula_nit = models.CharField(max_length=20)
